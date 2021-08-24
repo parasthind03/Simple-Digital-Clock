@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Digital-7 Mono;
+    src: url(digital-7.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    height: 100vh;
+    width: 100vw;    
+    display: grid;
+    place-items: center;
+    font-family: Digital-7 Mono; 
+    color: #2980b9; 
+}
+
+h1{
+    margin-bottom: 40%;
+    text-align: center;
+    font-size: 3rem;
+    color: #9aacb8;
+}
+
+.time_wrapper{
+    position: relative;
+}
+
+#time{
+    font-size: 8rem;
+    text-shadow: 0 0 55px #2980b9;
+}
+
+#sec{
+    position: relative;
+    font-size: 2rem;
+    left: 35px;
+}
+
+#med{
+    position: absolute;
+    bottom: 60%;
+    font-size: 2rem;
+    left: 260px;
+}
+
+.day_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+
+.date_wrapper{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.date_wrapper span{
+    font-size: 2rem;
+}
+
+.day{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.light{
+    opacity: 0.4;
+}
+
+
+
+
+

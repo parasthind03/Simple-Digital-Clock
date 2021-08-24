@@ -36,9 +36,10 @@ h1{
 }
 
 #sec{
-    position: relative;
+    position: absolute;
     font-size: 2rem;
-    left: 35px;
+    left: 260px;
+    bottom: 15%;
 }
 
 #med{
